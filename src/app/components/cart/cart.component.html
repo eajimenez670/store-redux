@@ -1,0 +1,5 @@
+<div class="container">
+    <main class="grid">
+        <app-card *ngFor="let product of products$ | async" [product]="product"></app-card>
+    </main>
+</div>

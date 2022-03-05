@@ -1,0 +1,7 @@
+<ul>
+    <li><a routerLink="/products" routerLinkActive="active">Productos</a></li>
+
+    <li class="card-li">
+        <a routerLink="/cart" routerLinkActive="active"><i class="fa-solid fa-cart-shopping"></i> {{products$ | async | countArray}}</a>
+    </li>
+</ul>
